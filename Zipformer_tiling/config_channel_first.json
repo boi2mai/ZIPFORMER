@@ -1,0 +1,20 @@
+{
+    "model_shape": {
+        "T": 116,
+        "D_in": 192,
+        "D_ffw": 384,
+        "D_attn": 432,
+        "D_chunk": 144
+    },
+    "tiling_strategy": {
+        "name": "Channel-First Tiling",
+        "ffw_tile_T": 58,
+        "ffw_tile_H": 192,
+        "attn_tile_T": 58,
+        "attn_tile_C": 144
+    },
+    "hardware_constraints": {
+        "num_pe": 256,
+        "sram_limit_kb": 512
+    }
+}

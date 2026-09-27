@@ -1,0 +1,3 @@
+phép Y = X@W1 + b1 thì b1 lưu ở đâu ra, tự nhiên xuất hiện r thực hiện phép macs??
+tại sao ở log của sweep thì chỉ có channel first với block mà kco time first, trong khi rõ ràng là có những stack và khối khác nhau có thể áp dụng time first tốt hơn mà
+thôi chả cần số nữa đâu, cái này quá phức tạp, làm cái dataflow là đẹp r, bây h c cho tớ nonlin với self nữa nhé

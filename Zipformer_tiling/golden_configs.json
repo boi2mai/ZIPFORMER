@@ -1,0 +1,188 @@
+[
+    {
+        "stack_id": 0,
+        "shape": {
+            "T": 116,
+            "D_in": 192,
+            "D_ffw": 384,
+            "D_attn": 432,
+            "D_chunk_n": 144,
+            "D_chunk_s": 48
+        },
+        "ffw": {
+            "strat": "Channel-First",
+            "t": 116,
+            "h": 64
+        },
+        "nonlin": {
+            "strat": "Channel-First",
+            "t": 116,
+            "c": 18
+        },
+        "self": {
+            "strat": "Pipeline",
+            "t": 116
+        },
+        "hardware_specs": {
+            "exact_sram_kb": 197.5,
+            "g_loads": 1102064,
+            "g_stores": 66816,
+            "intensity_mac_byte": 53.48
+        }
+    },
+    {
+        "stack_id": 1,
+        "shape": {
+            "T": 58,
+            "D_in": 384,
+            "D_ffw": 768,
+            "D_attn": 864,
+            "D_chunk_n": 288,
+            "D_chunk_s": 96
+        },
+        "ffw": {
+            "strat": "Channel-First",
+            "t": 58,
+            "h": 16
+        },
+        "nonlin": {
+            "strat": "Channel-First",
+            "t": 58,
+            "c": 144
+        },
+        "self": {
+            "strat": "Pipeline",
+            "t": 58
+        },
+        "hardware_specs": {
+            "exact_sram_kb": 325.88,
+            "g_loads": 2416628,
+            "g_stores": 66816,
+            "intensity_mac_byte": 38.04
+        }
+    },
+    {
+        "stack_id": 2,
+        "shape": {
+            "T": 29,
+            "D_in": 768,
+            "D_ffw": 1536,
+            "D_attn": 1728,
+            "D_chunk_n": 576,
+            "D_chunk_s": 192
+        },
+        "ffw": {
+            "strat": "Channel-First",
+            "t": 29,
+            "h": 32
+        },
+        "nonlin": {
+            "strat": "Channel-First",
+            "t": 29,
+            "c": 72
+        },
+        "self": {
+            "strat": "Pipeline",
+            "t": 29
+        },
+        "hardware_specs": {
+            "exact_sram_kb": 308.72,
+            "g_loads": 6124781,
+            "g_stores": 66816,
+            "intensity_mac_byte": 21.06
+        }
+    },
+    {
+        "stack_id": 3,
+        "shape": {
+            "T": 14,
+            "D_in": 1536,
+            "D_ffw": 3072,
+            "D_attn": 3456,
+            "D_chunk_n": 1152,
+            "D_chunk_s": 384
+        },
+        "ffw": {
+            "strat": "Channel-First",
+            "t": 14,
+            "h": 16
+        },
+        "nonlin": {
+            "strat": "Channel-First",
+            "t": 14,
+            "c": 18
+        },
+        "self": {
+            "strat": "Pipeline",
+            "t": 14
+        },
+        "hardware_specs": {
+            "exact_sram_kb": 390.76,
+            "g_loads": 26047700,
+            "g_stores": 64512,
+            "intensity_mac_byte": 10.44
+        }
+    },
+    {
+        "stack_id": 4,
+        "shape": {
+            "T": 29,
+            "D_in": 768,
+            "D_ffw": 1536,
+            "D_attn": 1728,
+            "D_chunk_n": 576,
+            "D_chunk_s": 192
+        },
+        "ffw": {
+            "strat": "Channel-First",
+            "t": 29,
+            "h": 32
+        },
+        "nonlin": {
+            "strat": "Channel-First",
+            "t": 29,
+            "c": 72
+        },
+        "self": {
+            "strat": "Pipeline",
+            "t": 29
+        },
+        "hardware_specs": {
+            "exact_sram_kb": 308.72,
+            "g_loads": 6124781,
+            "g_stores": 66816,
+            "intensity_mac_byte": 21.06
+        }
+    },
+    {
+        "stack_id": 5,
+        "shape": {
+            "T": 58,
+            "D_in": 384,
+            "D_ffw": 768,
+            "D_attn": 864,
+            "D_chunk_n": 288,
+            "D_chunk_s": 96
+        },
+        "ffw": {
+            "strat": "Channel-First",
+            "t": 58,
+            "h": 16
+        },
+        "nonlin": {
+            "strat": "Channel-First",
+            "t": 58,
+            "c": 144
+        },
+        "self": {
+            "strat": "Pipeline",
+            "t": 58
+        },
+        "hardware_specs": {
+            "exact_sram_kb": 325.88,
+            "g_loads": 2416628,
+            "g_stores": 66816,
+            "intensity_mac_byte": 38.04
+        }
+    }
+]
